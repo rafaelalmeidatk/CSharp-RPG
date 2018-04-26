@@ -24,33 +24,37 @@
     <mindamage>2</mindamage>
     <maxdamage>4</maxdamage>
   </weapon>
-  <item id="5">
+  <item id="31">
     <name>Rat Tail</name>
     <nameplural>Rat Tails</nameplural>
   </item>
-  <item id="6">
+  <item id="32">
     <name>Rat Tooth</name>
     <nameplural>Rat Teeth</nameplural>
   </item>
-  <item id="7">
+  <item id="33">
     <name>Rat Eye</name>
     <nameplural>Rat Eyes</nameplural>
   </item>
-  <item id="8">
+  <item id="34">
+    <name>Piece of Fur</name>
+    <nameplural>Pieces of Fur</nameplural>
+  </item>
+  <item id="65">
     <name>Adventurer Pass</name>
     <nameplural>Adventurer Passes</nameplural>
   </item>
-  <potion id="9">
+  <potion id="101">
     <name>S Health Potion</name>
     <nameplural>S Health Potions</nameplural>
     <power>4</power>
   </potion>
-  <potion id="10">
+  <potion id="102">
     <name>M Health Potion</name>
     <nameplural>M Health Potions</nameplural>
     <power>7</power>
   </potion>
-  <potion id="11">
+  <potion id="103">
     <name>G Health Potion</name>
     <nameplural>G Health Potions</nameplural>
     <power>10</power>

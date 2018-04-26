@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<monsters>
+  <monster id="1">
+    <name>Rat</name>
+    <maxdamage>2</maxdamage>
+    <rewardgold>0</rewardgold>
+    <rewardexp>10</rewardexp>
+    <loottable>
+      <lootitem id="31">
+        <dropchance>60</dropchance>
+        <defaultdrop>false</defaultdrop>      
+      </lootitem>
+      <lootitem id="32">
+        <dropchance>50</dropchance>
+        <defaultdrop>false</defaultdrop>      
+      </lootitem>
+      <lootitem id="33">
+        <dropchance>40</dropchance>
+        <defaultdrop>false</defaultdrop>      
+      </lootitem>
+      <lootitem id="34">
+        <dropchance>85</dropchance>
+        <defaultdrop>true</defaultdrop>      
+      </lootitem>
+    </loottable>
+  </monster>
+</monsters>
