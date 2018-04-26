@@ -70,27 +70,18 @@ namespace Engine
 
         private static void PopulateItems(XmlDocument xmlFile)
         {
+			int id, mindamage, maxdamage, power;
+			string name, nameplural;
+			
             foreach (XmlNode node in xmlFile.SelectNodes("//*"))
             {
                 if(node.Name == "weapon")
                 {
-                    int id = Int32.Parse(node.Attributes["id"].Value);
-                    string name = null, nameplural = null;
-                    int mindamage = -1, maxdamage = -1;                    
-
-                    int i = 0; foreach(XmlNode childNode in node)
-                    {
-                        if (i == 0)
-                            name = childNode.InnerText;
-                        if (i == 1)
-                            nameplural = childNode.InnerText;
-                        if (i == 2)
-                            mindamage = Int32.Parse(childNode.InnerText);
-                        if (i == 3)
-                            maxdamage = Int32.Parse(childNode.InnerText);
-
-                        i++;
-                    }
+					id 			= Int32.Parse(node.Attributes["id"].Value);
+					name 		= childNode.SelectSingleNode("//name");
+					nameplural 	= childNode.SelectSingleNode("//nameplural");
+					mindamage	= childNode.SelectSingleNode("//mindamage");
+					maxdamage	= childNode.SelectSingleNode("//maxdamage");
 
                     Console.WriteLine("ID: " + id);
                     Console.WriteLine("Name: " + name);
@@ -100,33 +91,35 @@ namespace Engine
 
                     // Weapon tag
                     Items.Add(new Weapon(id, name, nameplural, mindamage, maxdamage));
-
-                    Console.WriteLine(Items.Count);
-
                 } else if(node.Name == "item")
                 {
-                    Console.WriteLine("ID: " + Int32.Parse(node.Attributes["id"].Value));
-                    Console.WriteLine("Name: " + node["name"].InnerText);
-                    Console.WriteLine("Name Plural: " + node["nameplural"].InnerText);
-
-                    // Item tag
-                    Items.Add(new Item(Int32.Parse(node.Attributes["id"].Value), node["name"].InnerText, node["nameplural"].InnerText));
-
-                    Console.WriteLine(Items.Count);
-
+					id 			= Int32.Parse(node.Attributes["id"].Value);
+					name 		= childNode.SelectSingleNode("//name");
+					nameplural 	= childNode.SelectSingleNode("//nameplural");
+                    
+                    Console.WriteLine("ID: " + id));
+                    Console.WriteLine("Name: " + name);
+                    Console.WriteLine("Name Plural: " + nameplural);
+					
+					// Item tag
+                    Items.Add(new Item(Int32.Parse(id), name, nameplural));
                 } else if (node.Name == "potion")
                 {
-                    Console.WriteLine("ID: " + Int32.Parse(node.Attributes["id"].Value));
-                    Console.WriteLine("Name: " + node["name"].InnerText);
-                    Console.WriteLine("Name Plural: " + node["nameplural"].InnerText);
-                    Console.WriteLine("Power: " + node["power"].InnerText);
+					id 			= Int32.Parse(node.Attributes["id"].Value);
+					power		= Int32.Parse(childNode.SelectSingleNode("//power"));
+					name 		= childNode.SelectSingleNode("//name");
+					nameplural 	= childNode.SelectSingleNode("//nameplural");
+                    
+					Console.WriteLine("ID: " + Int32.Parse(id));
+                    Console.WriteLine("Name: " + name);
+                    Console.WriteLine("Name Plural: " + nameplural);
+                    Console.WriteLine("Power: " + power);
 
                     // Potion tag
-                    Items.Add(new Potion(Int32.Parse(node.Attributes["id"].Value), node["name"].InnerText, node["nameplural"].InnerText, 
-                        Int32.Parse(node["power"].InnerText)));
-
-                    Console.WriteLine(Items.Count);
+                    Items.Add(new Potion(Int32.Parse(id), name, nameplural, power)));
                 }
+				
+                Console.WriteLine(Items.Count);
             }
         }
 
