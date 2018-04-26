@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<items>
+  <weapon id="1">
+    <name>Wooden Sword</name>
+    <nameplural>Wooden Swords</nameplural>
+    <mindamage>0</mindamage>
+    <maxdamage>1</maxdamage>
+  </weapon>
+  <weapon id="2">
+    <name>Rusty Sword</name>
+    <nameplural>Rusty Swords</nameplural>
+    <mindamage>0</mindamage>
+    <maxdamage>2</maxdamage>
+  </weapon>
+  <weapon id="3">
+    <name>Iron Sword</name>
+    <nameplural>Iron Swords</nameplural>
+    <mindamage>1</mindamage>
+    <maxdamage>3</maxdamage>
+  </weapon>
+  <weapon id="4">
+    <name>Steel Sword</name>
+    <nameplural>Steel Swords</nameplural>
+    <mindamage>2</mindamage>
+    <maxdamage>4</maxdamage>
+  </weapon>
+  <item id="5">
+    <name>Rat Tail</name>
+    <nameplural>Rat Tails</nameplural>
+  </item>
+  <item id="6">
+    <name>Rat Tooth</name>
+    <nameplural>Rat Teeth</nameplural>
+  </item>
+  <item id="7">
+    <name>Rat Eye</name>
+    <nameplural>Rat Eyes</nameplural>
+  </item>
+  <item id="8">
+    <name>Adventurer Pass</name>
+    <nameplural>Adventurer Passes</nameplural>
+  </item>
+  <potion id="9">
+    <name>S Health Potion</name>
+    <nameplural>S Health Potions</nameplural>
+    <power>4</power>
+  </potion>
+  <potion id="10">
+    <name>M Health Potion</name>
+    <nameplural>M Health Potions</nameplural>
+    <power>7</power>
+  </potion>
+  <potion id="11">
+    <name>G Health Potion</name>
+    <nameplural>G Health Potions</nameplural>
+    <power>10</power>
+  </potion>
+</items>

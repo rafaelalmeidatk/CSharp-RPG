@@ -1,0 +1,13 @@
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\obj\Debug\Unplanetary Wars.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\obj\Debug\Unplanetary_Wars.MainWindow.resources
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\obj\Debug\Unplanetary_Wars.Properties.Resources.resources
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\obj\Debug\Unplanetary Wars.csproj.GenerateResource.cache
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\obj\Debug\Unplanetary Wars.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\bin\Debug\Unplanetary Wars.exe.config
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\bin\Debug\Unplanetary Wars.exe
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\bin\Debug\Unplanetary Wars.pdb
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\obj\Debug\Unplanetary Wars.csproj.CopyComplete
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\obj\Debug\Unplanetary Wars.exe
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\obj\Debug\Unplanetary Wars.pdb
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\bin\Debug\Engine.dll
+C:\Users\usuario\Desktop\Unplanetary Wars\Unplanetary Wars\bin\Debug\Engine.pdb
